@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FAQ</title>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="CSS/fontawesome/css/fontawesome.min.css">
+   <style>
+    html {
+    font-family: "Quicksand", sans-serif;
+    color: #1a1a1a; 
+  }
+
+  h1 {
+    font-family: "Quicksand", sans-serif;
+    color: #1a1a1a;
+  }
+
+  p{
+    font-family: "Quicksand", sans-serif;
+    color: #ffffff;
+  }
+
+  .background {
+    /* background: #d8d8d8; */
+    background: rgba(216, 216, 216, 0.7);
+  }
+
+  header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header h1 {
+    margin: 0;
+    padding: 20px;
+  }
+
+  li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .journey-image {
+    background: url(Images/Wallpaper\ 3.jpg) no-repeat center center;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .journey-image{
+    text-align: center; 
+    font-size: 3em;
+    padding: 2em;
+    border-radius: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1a1a1a
+  }
+
+  @media (min-width: 1000px){
+    body{
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    header {
+      flex-direction: row;
+    }
+
+    header li {
+      display: inline-block;
+    }
+
+    header h1, header nav{
+      flex: 1;
+    }
+
+    header h1 {
+      text-align: left;
+    }
+
+    header nav {
+      text-align: right;
+    }
+  }
+
+    .faq-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+  }
+
+  .faq-question {
+            font-size: 30px;
+            color: #007acc;
+  }
+
+  .faq-answer {
+            margin-top: 10px;
+            color: #555;
+            font-size: 20px;
+  }
+
+   </style>
+ </head>
+ <body>
+
+  <div style= "text-align: center; margin-top: 30px; min-height: 5vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;">
+    <img src= "images/logo@.jpeg"
+        width="95"
+        height="75">
+  </div>
+
+     <header class="background">
+       <h1>Sky Hoops Club</h1>
+       <nav>
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="FAQ.html">FAQ</a></li>
+         </ul>
+       </nav>
+     </header>
+
+    <div class="journey-image">
+    <div style= "text-align: center; margin-top: 40px; padding-top: 20;">
+    <u class="double-underline"><h1 style= "font-size : 50px; text-align : center; color:#ffffff">FAQ</h1></u>
+
+        <div class="faq-item">
+            <div class="faq-question">1. What are the benefits of joining basketball classes?</div>
+            <div class="faq-answer">- Basketball classes offer numerous benefits, including improved fitness, enhanced teamwork and communication skills, and the opportunity to develop basketball fundamentals and techniques.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">2. Who can participate in the classes?</div>
+            <div class="faq-answer">- Our classes are open to individuals of all ages and skill levels. Whether you're a beginner or an experienced player, you're welcome to join and improve your basketball skills.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">3. How do I register for the classes?</div>
+            <div class="faq-answer">- You can easily register by visiting our website and filling out the registration form.<br> For any assistance, feel free to contact us at <a href="mailto:info@basketballclasses.com">info@basketballclasses.com</a>.</div>
+        </div>
+    </section>
+    </div>
+  </body>
+</html>
